@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MaterialApp(
+void main() => runApp(const MaterialApp(
       home: Screen2(),
     ));
 
@@ -10,9 +10,9 @@ class Screen2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white10,
+      backgroundColor: Colors.white70,
       appBar: AppBar(
-        title: Center(
+        title: const Center(
           child: Text('Screen2'),
         ),
       ),
@@ -22,17 +22,18 @@ class Screen2 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
-              margin: EdgeInsets.all(20),
-              padding: EdgeInsets.all(20),
+              margin: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
               decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(20), color: Colors.white),
+                  borderRadius: BorderRadius.circular(20),
+                  color: Colors.white54),
               child: Column(
                 children: [
-                  Text(
+                  const Text(
                     'Start Your Free Trial Today',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25),
                   ),
-                  Text(
+                  const Text(
                     'Here are free 5 minutes',
                     style: TextStyle(fontSize: 20),
                   ),
@@ -45,7 +46,7 @@ class Screen2 extends StatelessWidget {
                             backgroundColor:
                                 MaterialStateProperty.all(Colors.red)),
                         onPressed: () {},
-                        child: Row(
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Icon(
@@ -62,7 +63,7 @@ class Screen2 extends StatelessWidget {
                           ],
                         ),
                       ),
-                      SizedBox(
+                      const SizedBox(
                         width: 10,
                       ),
                       ElevatedButton(
@@ -72,7 +73,7 @@ class Screen2 extends StatelessWidget {
                               MaterialStateProperty.all(Colors.amber),
                         ),
                         onPressed: () {},
-                        child: Row(
+                        child: const Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Icon(
@@ -95,11 +96,12 @@ class Screen2 extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.all(20),
-              padding: EdgeInsets.all(20),
+              margin: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
               decoration: BoxDecoration(
-                  color: Colors.white, borderRadius: BorderRadius.circular(20)),
-              child: Row(
+                  color: Colors.white54,
+                  borderRadius: BorderRadius.circular(20)),
+              child: const Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: [
                   Icon(
@@ -119,7 +121,88 @@ class Screen2 extends StatelessWidget {
                   Icon(Icons.arrow_forward_ios_rounded),
                 ],
               ),
-            )
+            ),
+            Container(
+              margin: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
+              decoration: BoxDecoration(
+                  color: Colors.white54,
+                  borderRadius: BorderRadius.circular(20)),
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Icon(
+                    Icons.image,
+                    size: 60,
+                  ),
+                  SizedBox(
+                    width: 35,
+                  ),
+                  Text(
+                    'Get Lesson Time',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  ),
+                  SizedBox(
+                    width: 35,
+                  ),
+                  Icon(Icons.arrow_forward_ios_rounded),
+                ],
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
+              decoration: BoxDecoration(
+                  color: Colors.white54,
+                  borderRadius: BorderRadius.circular(20)),
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Icon(
+                    Icons.image,
+                    size: 60,
+                  ),
+                  SizedBox(
+                    width: 35,
+                  ),
+                  Text(
+                    'Get Lesson Time',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  ),
+                  SizedBox(
+                    width: 35,
+                  ),
+                  Icon(Icons.arrow_forward_ios_rounded),
+                ],
+              ),
+            ),
+            Container(
+              margin: const EdgeInsets.all(15),
+              padding: const EdgeInsets.all(15),
+              decoration: BoxDecoration(
+                  color: Colors.white54,
+                  borderRadius: BorderRadius.circular(20)),
+              child: const Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  Icon(
+                    Icons.image,
+                    size: 60,
+                  ),
+                  SizedBox(
+                    width: 35,
+                  ),
+                  Text(
+                    'Get Lesson Time',
+                    style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                  ),
+                  SizedBox(
+                    width: 35,
+                  ),
+                  Icon(Icons.arrow_forward_ios_rounded),
+                ],
+              ),
+            ),
           ],
         ),
       ),
