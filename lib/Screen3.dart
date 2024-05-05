@@ -35,14 +35,20 @@ class Screen2 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        'Plan de Base',
-                        style: TextStyle(fontSize: 15),
+                      Padding(
+                        padding: EdgeInsets.only(left: 5),
+                        child: Text(
+                          'Plan de Base',
+                          style: TextStyle(fontSize: 15),
+                        ),
                       ),
-                      Text(
-                        '22\$',
-                        style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
+                      Padding(
+                        padding: EdgeInsets.all(5),
+                        child: Text(
+                          '22\$',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
                       ),
                       Text(
                         'Forfait Sementriel',
@@ -87,14 +93,20 @@ class Screen2 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        'Plan de Base',
-                        style: TextStyle(fontSize: 15),
+                      Padding(
+                        padding: EdgeInsets.only(left: 5),
+                        child: Text(
+                          'Plan Avance',
+                          style: TextStyle(fontSize: 15),
+                        ),
                       ),
-                      Text(
-                        '22\$',
-                        style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
+                      Padding(
+                        padding: EdgeInsets.all(5),
+                        child: Text(
+                          '37\$',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
                       ),
                       Text(
                         'Forfait Sementriel',
@@ -139,14 +151,20 @@ class Screen2 extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text(
-                        'Plan de Base',
-                        style: TextStyle(fontSize: 15),
+                      Padding(
+                        padding: EdgeInsets.only(left: 5),
+                        child: Text(
+                          'Plan Limite',
+                          style: TextStyle(fontSize: 15),
+                        ),
                       ),
-                      Text(
-                        '22\$',
-                        style: TextStyle(
-                            fontSize: 20, fontWeight: FontWeight.bold),
+                      Padding(
+                        padding: EdgeInsets.all(5),
+                        child: Text(
+                          '45\$',
+                          style: TextStyle(
+                              fontSize: 20, fontWeight: FontWeight.bold),
+                        ),
                       ),
                       Text(
                         'Forfait Sementriel',
