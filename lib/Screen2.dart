@@ -84,7 +84,7 @@ class Screen2 extends StatelessWidget {
                               width: 10,
                             ),
                             Text(
-                              'Vedio call',
+                              'Video call',
                               style: TextStyle(color: Colors.white),
                             ),
                           ],
@@ -139,7 +139,7 @@ class Screen2 extends StatelessWidget {
                     width: 35,
                   ),
                   Text(
-                    'Get Lesson Time',
+                    'Find A Tutor',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   SizedBox(
@@ -166,7 +166,7 @@ class Screen2 extends StatelessWidget {
                     width: 35,
                   ),
                   Text(
-                    'Get Lesson Time',
+                    'Time Remaining',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   SizedBox(
@@ -193,7 +193,7 @@ class Screen2 extends StatelessWidget {
                     width: 35,
                   ),
                   Text(
-                    'Get Lesson Time',
+                    'Profile',
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   SizedBox(
