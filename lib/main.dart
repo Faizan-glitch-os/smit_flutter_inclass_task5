@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'Screen2.dart';
+
 void main() => runApp(
       const MaterialApp(
         home: Screen1(),
@@ -13,7 +15,6 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: const Icon(Icons.arrow_back),
         title: const Center(
           child: Text('Task5'),
         ),
@@ -37,7 +38,16 @@ class Screen1 extends StatelessWidget {
                     const BorderSide(color: Colors.amber),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return Screen2();
+                      },
+                    ),
+                  );
+                },
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -69,7 +79,16 @@ class Screen1 extends StatelessWidget {
                     const BorderSide(color: Colors.amber),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return Screen2();
+                      },
+                    ),
+                  );
+                },
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -98,7 +117,16 @@ class Screen1 extends StatelessWidget {
                     const BorderSide(color: Colors.amber),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return Screen2();
+                      },
+                    ),
+                  );
+                },
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
@@ -134,7 +162,16 @@ class Screen1 extends StatelessWidget {
                     const BorderSide(color: Colors.amber),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return Screen2();
+                      },
+                    ),
+                  );
+                },
                 child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
