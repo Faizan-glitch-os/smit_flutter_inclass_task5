@@ -102,10 +102,10 @@ class Screen2 extends StatelessWidget {
                   color: Colors.white54,
                   borderRadius: BorderRadius.circular(20)),
               child: const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Icon(
-                    Icons.image,
+                    Icons.play_lesson_rounded,
                     size: 60,
                   ),
                   SizedBox(
@@ -129,10 +129,10 @@ class Screen2 extends StatelessWidget {
                   color: Colors.white54,
                   borderRadius: BorderRadius.circular(20)),
               child: const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Icon(
-                    Icons.image,
+                    Icons.man,
                     size: 60,
                   ),
                   SizedBox(
@@ -143,7 +143,7 @@ class Screen2 extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   SizedBox(
-                    width: 35,
+                    width: 77,
                   ),
                   Icon(Icons.arrow_forward_ios_rounded),
                 ],
@@ -156,10 +156,10 @@ class Screen2 extends StatelessWidget {
                   color: Colors.white54,
                   borderRadius: BorderRadius.circular(20)),
               child: const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Icon(
-                    Icons.image,
+                    Icons.access_time_filled_rounded,
                     size: 60,
                   ),
                   SizedBox(
@@ -170,7 +170,7 @@ class Screen2 extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   SizedBox(
-                    width: 35,
+                    width: 40,
                   ),
                   Icon(Icons.arrow_forward_ios_rounded),
                 ],
@@ -183,10 +183,10 @@ class Screen2 extends StatelessWidget {
                   color: Colors.white54,
                   borderRadius: BorderRadius.circular(20)),
               child: const Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Icon(
-                    Icons.image,
+                    Icons.person,
                     size: 60,
                   ),
                   SizedBox(
@@ -197,7 +197,7 @@ class Screen2 extends StatelessWidget {
                     style: TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
                   ),
                   SizedBox(
-                    width: 35,
+                    width: 130,
                   ),
                   Icon(Icons.arrow_forward_ios_rounded),
                 ],
