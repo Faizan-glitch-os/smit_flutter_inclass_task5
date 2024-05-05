@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/painting.dart';
 
 void main() => runApp(
-      MaterialApp(
+      const MaterialApp(
         home: Screen1(),
       ),
     );
@@ -15,30 +15,40 @@ class Screen1 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(
+        title: const Center(
           child: Text('Task5'),
         ),
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text("Let's get Started"),
+            const Text(
+              "Let's get Started",
+              style: TextStyle(fontSize: 40),
+            ),
+            const SizedBox(
+              height: 100,
+            ),
             Container(
-              margin: EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+              margin:
+                  const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
               child: OutlinedButton(
                 style: ButtonStyle(
                   side: MaterialStateProperty.all(
-                    BorderSide(color: Colors.amber),
+                    const BorderSide(color: Colors.amber),
                   ),
                 ),
                 onPressed: () {},
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
+                    SizedBox(
+                      width: 15,
+                    ),
                     Icon(
                       Icons.facebook_rounded,
                       color: Colors.blueAccent,
+                      size: 25,
                     ),
                     SizedBox(
                       width: 20,
@@ -52,26 +62,28 @@ class Screen1 extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+              margin:
+                  const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
               child: OutlinedButton(
                 style: ButtonStyle(
                   side: MaterialStateProperty.all(
-                    BorderSide(color: Colors.amber),
+                    const BorderSide(color: Colors.amber),
                   ),
                 ),
                 onPressed: () {},
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Icon(
-                      Icons.facebook_rounded,
-                      color: Colors.blueAccent,
+                    Image(
+                      width: 23,
+                      height: 23,
+                      image: AssetImage('assets/google-icon.png'),
                     ),
                     SizedBox(
                       width: 20,
                     ),
                     Text(
-                      'Continue with Facebook',
+                      'Continue with Google',
                       style: TextStyle(color: Colors.black),
                     ),
                   ],
@@ -79,26 +91,64 @@ class Screen1 extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+              margin:
+                  const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
               child: OutlinedButton(
                 style: ButtonStyle(
                   side: MaterialStateProperty.all(
-                    BorderSide(color: Colors.amber),
+                    const BorderSide(color: Colors.amber),
                   ),
                 ),
                 onPressed: () {},
-                child: Row(
+                child: const Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Icon(
-                      Icons.facebook_rounded,
-                      color: Colors.blueAccent,
+                      Icons.apple_rounded,
+                      color: Colors.black,
+                      size: 30,
                     ),
                     SizedBox(
                       width: 20,
                     ),
                     Text(
-                      'Continue with Facebook',
+                      'Continue with Apple',
+                      style: TextStyle(color: Colors.black),
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 30,
+            ),
+            const Text('------------------ or ------------------'),
+            const SizedBox(
+              height: 30,
+            ),
+            Container(
+              margin:
+                  const EdgeInsets.only(left: 20, right: 20, top: 5, bottom: 5),
+              child: OutlinedButton(
+                style: ButtonStyle(
+                  side: MaterialStateProperty.all(
+                    const BorderSide(color: Colors.amber),
+                  ),
+                ),
+                onPressed: () {},
+                child: const Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Icon(
+                      Icons.email_outlined,
+                      color: Colors.black,
+                      size: 25,
+                    ),
+                    SizedBox(
+                      width: 20,
+                    ),
+                    Text(
+                      'Continue with Email',
                       style: TextStyle(color: Colors.black),
                     ),
                   ],
